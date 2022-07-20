@@ -16,4 +16,4 @@
 
 link to deployed application ( https://sky19930112.github.io/popQuizzes )
 
-![image one](P1.jpg)
+![image one](./image/p1.jpg)
