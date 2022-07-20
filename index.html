@@ -9,36 +9,33 @@
 </head>
 <body>
     <nav> 
-        <h1 class="time" style="text-align:center;"></h1>
+        <h1 id="time" class="time" style="text-align:center;"></h1>
     </nav>
    
     <main>
-    <div class="start_btn"><button>Start</button></div>
-    <div class="quiz_box">
-        <section>
-            <div class="que_text"></div>
-            <div class="option_list"></div>
-        </section>
-        <footer>
-            <div class="total_que"></div>
-            <button class="next_btn">Next Que</button>
-        </footer>
-    </div>
-    <div class="result_box">
-        <div class="icon">
-            <i class="fas fa-crown"></i>
-        </div>
-        <div class="complete_text">You've completed the Quiz!</div>
-        <div class="score_text"></div>
-        <div class="buttons">
-            <section class="extra-info">
-                <label>Name</label>
-                <textarea></textarea>
-              </section>
-         
-            <button class="Submit">Submit</button>
-        </div>
-    </div>
+        <div class="start"><button>Start</button></div>
+        <article class="quiz_box">
+            <section>
+                <h1 class="que_text"></h1>
+                <p class="option_list"></p>
+            </section>
+            <footer>
+                <p class="total_que"></p>
+             <button class="next_btn">Next Que</button>
+            </footer>
+        </article>
+        <article class="result_box">       
+            <p class="score_text"></p>
+            <div class="buttons">
+                <section>
+                    <label>Name</label>
+                    <textarea></textarea>
+                    <br>
+                    <br>
+                    <button class="Submit">Submit</button>
+                </section>
+            </div>
+        </article>
     <script src="script.js"></script>
     <script src="js/script.js"></script>
     </main>
