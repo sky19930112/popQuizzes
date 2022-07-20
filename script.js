@@ -20,8 +20,6 @@ function sendMessage() {
 }
 setTime();
 
-
-
 // list of questions
 let questions = [
     {
@@ -81,8 +79,6 @@ let questions = [
   },
 ];
 
-
-
 // use .querySelector to grab classes into variable 
 const startBt = document.querySelector(".start button");
 const quiz_box = document.querySelector(".quiz_box");
@@ -118,7 +114,6 @@ restart_quiz.onclick = ()=>{
     next_btn.classList.remove("show"); 
 }
 
-
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
@@ -152,7 +147,6 @@ function showQuetions(index){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
-
 
 function optionSelected(answer){
     clearInterval(counter); 
